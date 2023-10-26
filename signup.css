@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #f0f0f0; */
+    background: linear-gradient(135deg, #d215e3, #2fe191);
+    font-family: Arial, sans-serif;
+}
+
+.registration-container {
+    /* background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 360px;
+    padding: 20px; */
+    background-color: rgba(243, 244, 239, 0.9);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 50px rgba(3, 8, 0, 0.97);
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+}
+
+h2 {
+    margin: 0;
+    padding: 10px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #0e010a;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+button {
+    /* background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer; */
+    width: 100%;
+    padding: 10px;
+   
+    background: linear-gradient(135deg, #32d2e1, #a7dd1f);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.11s;
+}
+
+button:hover {
+   
+    background: linear-gradient(135deg, #205c82, #d42ad1);
+}
+input:hover, input:focus {
+    background-color: #fffffff9;
+}

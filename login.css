@@ -1,0 +1,81 @@
+/* login.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background: linear-gradient(135deg, #d215e3, #2fe191);
+    /* display:block; */
+    /* justify-content: center; */
+    /* align-items:center; */
+    height: 100vh;
+}
+.heading h1 {
+        text-align:center;
+        padding:5px;
+        margin:20px
+    
+}
+
+.login-container {
+    background-color: rgba(253, 253, 253, 0.9);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 50px rgba(3, 8, 0, 0.811);
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form h1 {
+    margin: 0;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #09070e;
+}
+.login-form a:hover{
+ color:#30e257;
+}
+
+.input-container {
+    margin: 10px 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #353535;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8a76ba;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-weight:900; /* Apply bold font to input text */
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background: linear-gradient(135deg, #32d2e1, #a7dd1f);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.11s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #205c82, #d42ad1);
+}
+
+/* Add hover effect for input fields */
+input:hover, input:focus {
+    background-color: #fffffff9;
+}
